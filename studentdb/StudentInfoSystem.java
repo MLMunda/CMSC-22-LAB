@@ -103,6 +103,7 @@ public class StudentInfoSystem {
             System.out.println("Student number not found!");
         } else {
             studentDirectory.remove(finder(tempSN));
+            System.out.println("Student " + tempSN + " deleted!");
         }
         menu();
     }
