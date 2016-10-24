@@ -220,15 +220,6 @@ public class RockPaperScissorsLizardSpock extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void playerScoreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_playerScoreActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_playerScoreActionPerformed
-
-    private void rockActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rockActionPerformed
-        // TODO add your handling code here:
-        
-    }//GEN-LAST:event_rockActionPerformed
-
     public int randInt(int min, int max) {
         int randomNum = rand.nextInt((max - min) + 1) + min;
         return randomNum;
